@@ -1,5 +1,1 @@
-q = 0
-a = '* 7 ='
-for i in range(9):
-    q += 1
-    print(q, a, q * 7)
+[print(i, '* 7 =', i * 7) for i in range(1, 10)]
