@@ -1,7 +1,5 @@
-q = 10
-for i in range(90):
-    if q % 2 == 0:
-        pass
-    else:
-        print(q)
-    q += 1
+a = []
+for i in range(10, 100):
+    if i % 2 != 0:
+        a.append(i)
+print(*a)

@@ -1,4 +1,1 @@
-q = 11
-for i in range(45):
-    print(q)
-    q += 2
+[[print('%d%d' % (i, j)) for j in (3, 7)] for i in range(1, 10)]
