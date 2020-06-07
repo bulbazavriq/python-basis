@@ -1,5 +1,11 @@
-a = input()
+# a = input()
+a = 'Russia'
 
-capitals = {'Бельгия':'Москва','Великобритания':'Берлин','Германия':'Париж','Бахрейн':'Ханой','Бангладеш':'Ереван','Афганистан':'Баку'}
+from data import data
 
-print(capitals[a])
+print('Country: %s' % a)
+
+for i in data:
+    if i['country'] == a:     
+        print('Capital: %s' % i['capital'])
+        break
