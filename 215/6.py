@@ -1,9 +1,9 @@
 a = input()
-
+o = 0
 from data import data
 
 for i in data:
-    if i['country'] == a:
-        print(i['capital'])
-        break
+    if i['continent'] == a:     
+        o += 1
+print(o)
 
