@@ -9,10 +9,10 @@ class Test07(TestCase):
         self.e = lambda a, b: self.assertEqual(self.t(a), b)
 
     def test_asia(self):
-        pass
+        self.e('Asia', '500\n')
 
     def test_europe(self):
-        pass
+        self.e('Europe', '1332\n')
 
     def test_undefined(self):
         self.e('Xiaomi', '0\n')
