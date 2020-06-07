@@ -1,3 +1,9 @@
 a = input()
-A = {'Европа':'413','Азия':'351'}
-print(A[a])
+o = 0
+from data import data
+
+for i in data:
+    if i['continent'] == a:     
+        o += i['square']
+print(o)
+        
