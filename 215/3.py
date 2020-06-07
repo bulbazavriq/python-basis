@@ -1,4 +1,4 @@
-a = 'Russia'
+a = input()
 
 from data import data
 

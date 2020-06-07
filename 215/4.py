@@ -1,6 +1,12 @@
 a = input()
-A = {'Европа':'Бельгия Великобритания Германия','Азия':'Бахрейн Бангладеш Афганистан'}
-print(A[a])
+
+from data import data
+
+
+
+for i in data:
+    if i['continent'] == a:     
+        print(i['country'])
 
 
 
