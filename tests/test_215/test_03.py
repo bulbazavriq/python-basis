@@ -1,6 +1,7 @@
 from helper import run_task
 from unittest import TestCase, main
 
+# Выводит всю информацию по государству
 class Test03(TestCase):
 
     def setUp(self):

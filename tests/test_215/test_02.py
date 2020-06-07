@@ -1,6 +1,7 @@
 from helper import run_task
 from unittest import TestCase, main
 
+# Находит государство для столицы
 class Test02(TestCase):
 
     def setUp(self):

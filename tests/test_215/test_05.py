@@ -1,6 +1,7 @@
 from helper import run_task
 from unittest import TestCase, main
 
+# Выводит плотность населения в государстве
 class Test05(TestCase):
 
     def setUp(self):
