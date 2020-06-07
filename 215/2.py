@@ -1,9 +1,12 @@
 # Получение названия страны по имени столицы
+a = 'Moscow'
 
-a = input()
-countries = {'Москва':'Бельгия','Берлин':'Великобритания','Париж':'Германия','Ханой':'Бахрейн','Ереван':'Бангладеш','Баку':'Афганистан'}
-if a in countries:
-    print(countries[a])
-else:
-    print('Страна не найдена')
+from data import data
+
+print('Country: %s' % a)
+
+for i in data:
+    if i['capital'] == a:     
+        print('Capital: %s' % i['country'])
+        break
 
