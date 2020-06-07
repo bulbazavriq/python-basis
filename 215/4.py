@@ -2,8 +2,6 @@ a = input()
 
 from data import data
 
-
-
 for i in data:
     if i['continent'] == a:     
         print(i['country'])
