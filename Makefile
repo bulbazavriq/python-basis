@@ -1,0 +1,3 @@
+all:
+	PYTHONPATH=.:helpers sniffer
+
