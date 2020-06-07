@@ -11,7 +11,7 @@ class Test06(TestCase):
         self.e('Asia', '1\n')
 
     def test_europe(self):
-        self.e('Europe', '2\n')
+        self.e('Europe', '4\n')
 
     def test_undefined(self):
         self.e('Xiaomi', '0\n')
