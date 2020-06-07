@@ -1,5 +1,9 @@
 a = input()
-A = {'Европа':'Бельгия''Великобритания''Германия','Азия':'Бахрейн Бангладеш Афганистан'}
 
-print(len(A[a]))
+from data import data
+
+for i in data:
+    if i['country'] == a:
+        print(i['capital'])
+        break
 
